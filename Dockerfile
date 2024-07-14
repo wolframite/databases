@@ -1,4 +1,4 @@
-FROM rg.fr-par.scw.cloud/paswolf/certs:latest AS certs
+FROM registry.paswolf.com/certs AS certs
 
 FROM postgres:16-alpine
 COPY --from=certs /certs /certs

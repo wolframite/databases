@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   postgres:
-    image: rg.fr-par.scw.cloud/paswolf/postgres:16-alpine-ssl
+    image: registry.paswolf.com/postgres:16-alpine-ssl
     restart: unless-stopped
     environment:
       - POSTGRES_USER=admin
