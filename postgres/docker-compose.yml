@@ -1,5 +1,3 @@
-version: "3.7"
-
 services:
   postgres:
     image: registry.paswolf.com/postgres:16-alpine-ssl
