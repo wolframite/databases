@@ -9,6 +9,7 @@ services:
       - MYSQL_PASSWORD=42usNJp3
       - MYSQL_DATABASE=keycloak
     command:
+      - "--ssl-ca=/certs/ca.cer"
       - "--ssl-cert=/certs/paswolf.com.cer"
       - "--ssl-key=/certs/paswolf.com.key"
       - "--ssl=1"
